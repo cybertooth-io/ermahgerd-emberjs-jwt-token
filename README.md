@@ -55,3 +55,19 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## Addons
+
+Please use this section to mention the addons that we've been installing that way if we do an upgrade
+and need to bring them all back we can!
+
+```bash
+# SASS for stylesheets; make sure to renamed app/styles/app.css -> app/styles/app.scss
+$ ember install ember-cli-sass
+# Bootstrap 4 support; bring it all in looks like bootstrap@^4.1.0 comes in, should be bootstrap@~4.1.0 
+$ ember install ember-cli-bootstrap-4
+# Encouraged to stop using this, but I actually love this helper
+$ ember install ember-route-action-helper
+$ ember install ember-concurrency
+
+```
