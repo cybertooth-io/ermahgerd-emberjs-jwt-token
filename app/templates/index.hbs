@@ -1,8 +1,12 @@
-<section>
+<section class="my-3">
   <div class="container">
+    <h1>Welcome To The <span class="text-danger">Public</span> Index Page</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias amet, aperiam assumenda at blanditiis
       debitis deserunt distinctio hic impedit maiores mollitia officia pariatur saepe sit unde vel vero voluptatem!
+    </p>
+    <p>
+      {{#link-to "protected.index"}}Protected Page{{/link-to}}
     </p>
   </div>
 </section>

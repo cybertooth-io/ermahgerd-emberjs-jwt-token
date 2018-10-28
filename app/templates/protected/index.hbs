@@ -1,0 +1,14 @@
+<section class="my-3">
+  <div class="container">
+    <h1>Welcome To The <span class="text-success">Protected</span> Index Page</h1>
+    <p>
+      You can only get to the <code>/protected/*</code> paths if you have logged in.
+    </p>
+    <p>
+      {{#link-to "protected.configuration.index"}}Configuration Page{{/link-to}}
+    </p>
+    <p>
+      {{#link-to "index"}}Public Page{{/link-to}}
+    </p>
+  </div>
+</section>

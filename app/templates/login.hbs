@@ -1,0 +1,36 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="offset-md-3 col-md-6">
+        <form class="form my-5" {{action "login" session email password on="submit"}}>
+          <div class="form-group">
+            <label for="js-email" class="control-label">Email Address</label>
+            {{input
+              autocomplete="username"
+              class="form-control"
+              placeholder="Email Adddress"
+              type="email"
+              value=email
+            }}
+          </div>
+          <div class="form-group">
+            <label for="js-password" class="control-label">Password</label>
+            {{input
+              autocomplete="current-password"
+              class="form-control"
+              placeholder="Password"
+              type="password"
+              value=password
+            }}
+          </div>
+          <div class="form-group text-right">
+            <button class="btn btn-outline-primary" type="submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>

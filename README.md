@@ -66,6 +66,9 @@ and need to bring them all back we can!
 $ ember install ember-cli-sass
 # Bootstrap 4 support; bring it all in looks like bootstrap@^4.1.0 comes in, should be bootstrap@~4.1.0 
 $ ember install ember-cli-bootstrap-4
+# For authentication
+$ ember install ember-simple-auth
+$ ember install ember-simple-auth-token
 # Encouraged to stop using this, but I actually love this helper
 $ ember install ember-route-action-helper
 $ ember install ember-concurrency
