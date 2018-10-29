@@ -10,6 +10,8 @@ Router.map(function () {
   this.route('login');
   this.route('protected', function () {
     this.route('configuration', function () {
+      this.route('roles', function () {
+      });
     });
   });
 });

@@ -1,10 +1,20 @@
 <section class="my-3">
   <div class="container">
-    <h1>Configuration</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dignissimos, et fuga magnam provident
-      quibusdam sequi velit veniam? Dolore eveniet excepturi expedita officia placeat. Accusamus deserunt esse iusto
-      nulla quaerat?
-    </p>
+
+    <div class="d-flex my-3">
+      <h1 class="flex-fill">Configuration</h1>
+      <div class="align-self-center">
+        {{#link-to "protected.index" class="btn btn-outline-secondary"}}Home{{/link-to}}
+      </div>
+    </div>
+
+    <div class="list-group">
+      {{#link-to "protected.configuration.roles.index" class="list-group-item list-group-item-action"}}
+        <h5 class="mb-0">
+          Roles
+        </h5>
+      {{/link-to}}
+    </div>
+
   </div>
 </section>

@@ -1,0 +1,27 @@
+<section class="my-3">
+  <div class="container">
+
+    <div class="d-flex my-3">
+      <h1 class="flex-fill">Roles</h1>
+      <div class="align-self-center">
+        {{#link-to "protected.configuration.index" class="btn btn-outline-secondary"}}
+          Configuration
+        {{/link-to}}
+      </div>
+    </div>
+
+    <div class="list-group">
+      {{#each model.roles as |role|}}
+        <div class="list-group-item">
+          <h5 class="mb-0">
+            {{role.name}}
+            {{#if role.notes}}
+              <small class="text-muted">{{role.notes}}</small>
+            {{/if}}
+          </h5>
+        </div>
+      {{/each}}
+    </div>
+
+  </div>
+</section>
