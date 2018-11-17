@@ -15,7 +15,8 @@ You need the following:
 
 ### First Time Setting Up
 
-1. `git clone git@github.com:cybertooth-io/ccpdist-com-emberjs.git` - to download the code; `cd ccpdist-com-emberjs.git` to get into the checked out code
+1. `git clone git@github.com:cybertooth-io/ermahgerd-rails-api-jwt.git` - to download the code
+1. `cd ermahgerd-rails-api-jwt` - to get into the checked out code
 1. `yarn` or `yarn install` - will install all javascript libraries
 
 ### Running The Server
