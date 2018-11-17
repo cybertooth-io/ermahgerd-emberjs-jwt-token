@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'cppdist-com-emberjs',
+    modulePrefix: 'ermahgerd-emberjs-jwt-token',
     environment,
     rootURL: '/',
     locationType: 'auto',

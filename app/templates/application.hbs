@@ -2,11 +2,11 @@
   <div class="container">
     {{#if session.isAuthenticated}}
       {{#link-to "protected.index" class="navbar-brand"}}
-        cppdist-com-emberjs
+        ermahgerd-emberjs-jwt-token
       {{/link-to}}
     {{else}}
       {{#link-to "index" class="navbar-brand"}}
-        cppdist-com-emberjs
+        ermahgerd-emberjs-jwt-token
       {{/link-to}}
     {{/if}}
 
@@ -14,7 +14,7 @@
       {{#if session.isAuthenticated}}
         <button
           {{action "logout" session on="click"}}
-          class="btn btn-outline-secondary btn-sm" type="button">
+          class="btn btn-outline-primary btn-sm" type="button">
           Logout
         </button>
 
