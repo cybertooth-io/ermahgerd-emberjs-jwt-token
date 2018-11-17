@@ -1,6 +1,30 @@
-<section>
+<nav class="border-bottom navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <h1>cppdist-com-emberjs</h1>
+    {{#if session.isAuthenticated}}
+      {{#link-to "protected.index" class="navbar-brand"}}
+        ermahgerd-emberjs-jwt-token
+      {{/link-to}}
+    {{else}}
+      {{#link-to "index" class="navbar-brand"}}
+        ermahgerd-emberjs-jwt-token
+      {{/link-to}}
+    {{/if}}
+
+    <div class="form-inline">
+      {{#if session.isAuthenticated}}
+        <button
+          {{action "logout" session on="click"}}
+          class="btn btn-outline-primary btn-sm" type="button">
+          Logout
+        </button>
+
+      {{else}}
+        {{#link-to "login" class="btn btn-outline-primary btn-sm"}}
+          Login
+        {{/link-to}}
+      {{/if}}
+    </div>
   </div>
-</section>
+</nav>
+
 {{outlet}}

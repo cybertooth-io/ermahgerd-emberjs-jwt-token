@@ -1,0 +1,27 @@
+<section class="my-3">
+  <div class="container">
+
+    <div class="d-flex my-3">
+      <h1 class="flex-fill"><span class="text-success">Protected</span> Path</h1>
+      <div class="align-self-center">
+        <div class="btn-group">
+          {{#link-to "protected.configuration.index" class="btn btn-outline-secondary"}}Configuration{{/link-to}}
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p>
+        Welcome to the protected index page that you can only get to once you have logged in. Check
+        your address bar, everything under <code>/protected/*</code> requires authentication.
+      </p>
+      <p>
+        {{#link-to "protected.configuration.index"}}Configuration Page{{/link-to}}
+      </p>
+      <p>
+        {{#link-to "index"}}Public Page{{/link-to}}
+      </p>
+    </div>
+
+  </div>
+</section>
