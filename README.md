@@ -1,7 +1,6 @@
-# README - cppdist-com-emberjs
+# README - ermahgerd-emberjs-jwt-token
 
-The EmberJs application for Canadian Pump & Packing Distribution.  This Ember application will talk to the Rails API
-server over at [https://github.com/cybertooth-io/cppdist-com-rails](https://github.com/cybertooth-io/cppdist-com-rails).
+This Ember application talks to a Rails API server over at [https://github.com/cybertooth-io/ermahgerd-rails-api-jwt](https://github.com/cybertooth-io/ermahgerd-rails-api-jwt).
 
 ## Development - Getting Started
 

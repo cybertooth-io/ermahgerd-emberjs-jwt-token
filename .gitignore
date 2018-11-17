@@ -22,3 +22,6 @@
 /bower.json.ember-try
 /package.json.ember-try
 /.gtm/
+
+# Use YARN
+/package-lock.json

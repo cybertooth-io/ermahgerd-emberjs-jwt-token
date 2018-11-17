@@ -1,8 +1,8 @@
 {
-  "name": "cppdist-com-emberjs",
+  "name": "ermahgerd-emberjs-jwt-token",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for cppdist-com-emberjs goes here",
+  "description": "Demo & test EmberJs application authenticating and authorized with Rails backend.",
   "repository": "",
   "license": "MIT",
   "author": "",
